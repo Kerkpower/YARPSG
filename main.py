@@ -14,10 +14,7 @@ def get_input() -> str:
 
 
 def check_input(move: str) -> bool:
-    if move not in tools:
-        return False
-
-    return True
+    return move in tools
 
 
 def random_opponent_tool() -> str:
