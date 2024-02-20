@@ -12,5 +12,12 @@ A simple Python implementation of the classic Rock, Paper, Scissors game, where 
 ## How to Run
 
 ```bash
-python rock_paper_scissors.py
+#clone the repo
+git clone https://github.com/Kerkpower/YARPSG
+
+#cd into the repo
+cd YARPSG
+
+#run it with python
+python main.py
 ```
