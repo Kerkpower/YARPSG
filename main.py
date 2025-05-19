@@ -1,6 +1,6 @@
 import random
 
-tools = ("rock", "paper", "scissors")
+TOOLS = ("rock", "paper", "scissors")
 
 
 def get_input() -> str:
@@ -14,11 +14,11 @@ def get_input() -> str:
 
 
 def check_input(move: str) -> bool:
-    return move in tools
+    return move in TOOLS
 
 
 def random_opponent_tool() -> str:
-    return random.choice(tools)
+    return random.choice(TOOLS)
 
 
 def check_winner(user_move: str, opponent_move: str) -> str:
